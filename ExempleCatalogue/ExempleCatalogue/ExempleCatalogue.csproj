@@ -8,8 +8,17 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="MediatR" Version="11.1.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+        <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\ExempleCatalogue.Application\ExempleCatalogue.Application.csproj" />
+      <ProjectReference Include="..\..\ExempleCatalogue.Domain\ExempleCatalogue.Domain.csproj" />
+      <ProjectReference Include="..\..\ExempleCatalogue.Infrastructure\ExempleCatalogue.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
