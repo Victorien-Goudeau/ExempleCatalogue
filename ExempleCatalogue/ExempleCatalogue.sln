@@ -1,12 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleCatalogue", "ExempleCatalogue\ExempleCatalogue.csproj", "{EAA587C3-7B2E-4D4B-BC6B-D9969593355C}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExempleCatalogue", "ExempleCatalogue\ExempleCatalogue.csproj", "{EAA587C3-7B2E-4D4B-BC6B-D9969593355C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleCatalogue.Application", "..\ExempleCatalogue.Application\ExempleCatalogue.Application.csproj", "{D5F53AA6-EA73-48BB-9029-F423B2973FB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExempleCatalogue.Application", "..\ExempleCatalogue.Application\ExempleCatalogue.Application.csproj", "{D5F53AA6-EA73-48BB-9029-F423B2973FB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleCatalogue.Infrastructure", "..\ExempleCatalogue.Infrastructure\ExempleCatalogue.Infrastructure.csproj", "{3B0D2F27-CE88-44A6-A9D7-F8B023033E83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExempleCatalogue.Infrastructure", "..\ExempleCatalogue.Infrastructure\ExempleCatalogue.Infrastructure.csproj", "{3B0D2F27-CE88-44A6-A9D7-F8B023033E83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleCatalogue.Domain", "..\ExempleCatalogue.Domain\ExempleCatalogue.Domain.csproj", "{9B037A1F-F4B2-4C50-A289-85113F13CA0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExempleCatalogue.Domain", "..\ExempleCatalogue.Domain\ExempleCatalogue.Domain.csproj", "{9B037A1F-F4B2-4C50-A289-85113F13CA0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A26E0E90-9D70-419D-B726-1FA1AE0473E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExempleCatalogue.Application.UnitTests", "ExempleCatalogue.Application.UnitTests\ExempleCatalogue.Application.UnitTests.csproj", "{9F577DC5-4BD7-425B-87CA-B8C12B91189F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +37,18 @@ Global
 		{9B037A1F-F4B2-4C50-A289-85113F13CA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B037A1F-F4B2-4C50-A289-85113F13CA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B037A1F-F4B2-4C50-A289-85113F13CA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F577DC5-4BD7-425B-87CA-B8C12B91189F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F577DC5-4BD7-425B-87CA-B8C12B91189F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F577DC5-4BD7-425B-87CA-B8C12B91189F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F577DC5-4BD7-425B-87CA-B8C12B91189F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A2A4E62-A38C-407A-9975-0589FE39563F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F577DC5-4BD7-425B-87CA-B8C12B91189F} = {A26E0E90-9D70-419D-B726-1FA1AE0473E5}
 	EndGlobalSection
 EndGlobal
